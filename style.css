@@ -141,4 +141,6 @@ width: 100%;
 .notification{
   letter-spacing: 1px;
    font-size: auto;
+   font-weight: normal;
+}
 }
