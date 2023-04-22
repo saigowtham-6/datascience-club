@@ -145,4 +145,13 @@ width: 100%;
   .notification{
     font-size: 3vw;
   }
+   @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      /* width: 710px; */
+      width: 355px;
+    }
+  }
  }
