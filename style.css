@@ -34,19 +34,6 @@ background: linear-gradient(to right, #04abe2, #037089); /* W3C, IE 10+/ Edge, F
 .data-science-header{
   margin-right: 70px;
 }
-.notification{
-  position: relative;
- width: 100%; 
-  color: hsl(0, 79%, 44%);
-  font-family: "Anonymous Pro", monospace;
-  letter-spacing: 2px;
-  overflow: hidden;
-  border-right: 2px solid hsl(0, 0%, 80%);
-  white-space: nowrap;
-  /* animation: typewriter 4s steps(44) 1s 1 normal both, */
-  animation: typewriter 6s steps(44) 1s infinite both,
-    blinkTextCursor 500ms infinite;
-}
 
 marquee{
  margin-top: 15px;
@@ -100,13 +87,27 @@ marquee{
   display: none;
 }
 
+.notification{
+  position: relative;
+ width: 100%; 
+  color: hsl(0, 79%, 44%);
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 2px;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  /* animation: typewriter 4s steps(44) 1s 1 normal both, */
+  animation: typewriter 6s steps(44) 1s infinite both,
+    blinkTextCursor 500ms infinite;
+}
+
 @keyframes typewriter {
   from {
     width: 0;
   }
   to {
     /* width: 710px; */
-    width: 480px;
+    width: 460px;
   }
 }
 @keyframes blinkTextCursor {
