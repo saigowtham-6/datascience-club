@@ -40,7 +40,7 @@ background: linear-gradient(to right, #04abe2, #037089); /* W3C, IE 10+/ Edge, F
   color: hsl(0, 79%, 44%);
   font-weight: bold;
   font-family: "Anonymous Pro", monospace;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   overflow: hidden;
   border-right: 2px solid hsl(0, 0%, 80%);
   white-space: nowrap;
@@ -87,10 +87,11 @@ marquee{
   text-align: justify;
 }
 
-table{
-  margin-bottom: 50px;
-  /* width: 90%; */
-  overflow: hidden;
+.table-responsive-md{
+  margin-top: 15px;
+  margin-bottom: 25px;
+  /* width: 90%;
+  overflow: hidden; */
 }
 
 #btn-back-to-top {
@@ -106,7 +107,7 @@ table{
   }
   to {
     /* width: 710px; */
-    width: 510px;
+    width: 480px;
   }
 }
 @keyframes blinkTextCursor {
@@ -132,15 +133,21 @@ table{
   height:290px;
   border:2px solid;
 }
-table{
+/*table{
   margin-bottom: 50px;
   table-layout: fixed;
 width: 100%;
   overflow: hidden;
-}
+}*/
 .notification{
   letter-spacing: 1px;
    font-size: 25px
    font-weight: normal;
 }
 }
+
+@media (max-width: 480px) { 
+  .notification{
+    font-size: 3.7vw;
+  }
+ }
